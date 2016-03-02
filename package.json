@@ -1,21 +1,21 @@
 {
-  "name": "tumblr-auth",
+  "name": "minimal-webpack",
   "version": "1.0.0",
-  "description": "A sample app that demonstrates oauth to tumblr",
+  "description": "A sample app that is a minimal working webpack",
   "scripts": {
     "start": "babel-node server.js",
     "build": "rimraf dist && NODE_ENV=production webpack --config ./webpack.production.config.js --progress --profile --colors"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amyrebecca/tumblr-auth.git"
+    "url": "git+https://github.com/amyrebecca/minimal-webpack.git"
   },
   "author": "Amy Boyer <amy.r.boyer@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amyrebecca/tumblr-auth/issues"
+    "url": "https://github.com/amyrebecca/minimal-webpack/issues"
   },
-  "homepage": "https://github.com/amyrebecca/tumblr-auth#readme",
+  "homepage": "https://github.com/amyrebecca/minimal-webpack#readme",
   "dependencies": {
     "babel-cli": "^6.6.0",
     "babel-loader": "^6.2.4",
